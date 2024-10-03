@@ -53,7 +53,7 @@ const Form = () => {
           <button type="submit">Submit</button>
         </div>
       </form>
-      {showName ? <p>{`Name: ${form.firstName} ${form.lastName}`} </p> : <></>}
+      {showName ? <p>{`Full Name: ${form.firstName} ${form.lastName}`} </p> : <></>}
     </div>
   );
 };
